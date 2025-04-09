@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout dan Navigation</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <nav>
+    
+    <a href="/" >Home</a>
+    
+    <a href="/friends.html" >Friends</a>
+    
+    <a href="/blog.html" >Blog</a>
+    
+    </nav>
+    <h1>Layout dan Navigation</h1>
+<p>13 Mar 2025 - </p>
+
+<p>penjelasan tentang Layout dan Navigation</p>
+
+<p>Berikut adalah beberapa aspek penting dari layout dan navigation:</p>
+
+<h3 id="1-layout-dalam-web-design"><strong>1. Layout dalam Web Design</strong></h3>
+<p>Layout adalah cara elemen-elemen situs web diatur dan ditampilkan di halaman. Layout yang efektif akan mempermudah pengguna untuk membaca dan berinteraksi dengan konten, serta meningkatkan pengalaman pengguna secara keseluruhan.</p>
+
+<h4 id="11-jenis-jenis-layout"><strong>1.1. Jenis-Jenis Layout</strong></h4>
+<p>Layout Satu Kolom (Single-Column Layout)</p>
+
+<p>Ini adalah layout yang sangat sederhana dan sering digunakan untuk blog atau situs web yang fokus pada teks.</p>
+
+<p>Biasanya hanya ada satu kolom utama untuk konten, tanpa sidebar atau elemen lainnya.</p>
+
+<p>Kelebihan: Mudah dibaca, cocok untuk situs yang memiliki konten berbasis teks.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy</p>
+<div class="container">
+  <header>
+    <h1>Blog Post</h1>
+  </header>
+  <main>
+    <p>Isi artikel blog...</p>
+  </main>
+</div>
+<p>Layout Dua Kolom (Two-Column Layout)</p>
+
+<p>Di layout ini, konten utama berada di satu kolom, dan di sampingnya ada sidebar yang berisi elemen tambahan seperti kategori, artikel terkait, atau iklan.</p>
+
+<p>Kelebihan: Memberikan ruang untuk menampilkan lebih banyak informasi tanpa mengganggu konten utama.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy</p>
+<div class="container">
+  <header>
+    <h1>Blog</h1>
+  </header>
+  <div class="content">
+    <main>
+      <p>Konten utama blog...</p>
+    </main>
+    <aside>
+      <h2>Kategori</h2>
+      <ul>
+        <li><a href="#">Teknologi</a></li>
+        <li><a href="#">Desain</a></li>
+      </ul>
+    </aside>
+  </div>
+</div>
+<p>Layout Tiga Kolom (Three-Column Layout)</p>
+
+<p>Layout ini memiliki kolom utama di tengah dan dua kolom di kiri dan kanan (sidebar).</p>
+
+<p>Biasanya digunakan untuk situs portal berita atau e-commerce, di mana banyak informasi yang ingin disampaikan.</p>
+
+<p>Kelebihan: Lebih fleksibel dalam menampilkan banyak elemen dalam satu halaman.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy</p>
+<div class="container">
+  <header>
+    <h1>Website</h1>
+  </header>
+  <div class="content">
+    <aside class="left-sidebar">
+      <ul>
+        <li>Link 1</li>
+        <li>Link 2</li>
+      </ul>
+    </aside>
+    <main>
+      <p>Konten utama...</p>
+    </main>
+    <aside class="right-sidebar">
+      <ul>
+        <li>Info 1</li>
+        <li>Info 2</li>
+      </ul>
+    </aside>
+  </div>
+</div>
+
+<h4 id="12-layout-responsif"><strong>1.2. Layout Responsif</strong></h4>
+<p>Layout responsif adalah teknik desain web yang memungkinkan halaman untuk menyesuaikan diri dengan berbagai ukuran layar perangkat (desktop, tablet, ponsel). Pengguna dapat mendapatkan pengalaman yang baik terlepas dari perangkat yang mereka gunakan.</p>
+
+<p>Contoh menggunakan CSS Flexbox untuk membuat layout responsif:</p>
+
+<p>css
+Copy
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}</p>
+
+<p>.main {
+  flex: 3;
+}</p>
+
+<p>.sidebar {
+  flex: 1;
+}
+Dengan media queries di CSS, layout ini bisa disesuaikan lebih lanjut agar elemen-elemen tampil dengan baik di perangkat yang lebih kecil.</p>
+
+<h3 id="2-navigation-dalam-web-design"><strong>2. Navigation dalam Web Design</strong></h3>
+<p>Navigation adalah elemen yang memungkinkan pengguna untuk berpindah dari satu halaman ke halaman lainnya dalam situs web. Navigasi yang jelas dan mudah digunakan sangat penting untuk memastikan bahwa pengunjung dapat dengan cepat menemukan informasi yang mereka cari.</p>
+
+<h4 id="21-jenis-jenis-navigasi"><strong>2.1. Jenis-Jenis Navigasi</strong></h4>
+<p>Navigasi Horizontal</p>
+
+<p>Ini adalah menu navigasi yang biasanya diletakkan di bagian atas halaman dan berisi tautan ke halaman-halaman utama.</p>
+
+<p>Menu horizontal sering digunakan pada situs yang lebih kecil atau untuk navigasi utama yang jelas.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy</p>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+<p>Navigasi Vertikal</p>
+
+<p>Menavigasi situs web dengan daftar tautan yang ditampilkan dalam satu kolom (biasanya di sidebar).</p>
+
+<p>Navigasi vertikal sering digunakan untuk situs dengan banyak kategori atau halaman.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy</p>
+<nav>
+  <ul>
+    <li><a href="/category1">Category 1</a></li>
+    <li><a href="/category2">Category 2</a></li>
+    <li><a href="/category3">Category 3</a></li>
+  </ul>
+</nav>
+<p>Hamburger Menu</p>
+
+<p>Pada perangkat mobile atau untuk desain responsif, hamburger menu (ikon tiga garis) digunakan untuk menyembunyikan dan menampilkan menu navigasi.</p>
+
+<p>Ini membantu menghemat ruang pada perangkat dengan layar kecil.</p>
+
+<p>Contoh:</p>
+
+<p>html
+Copy
+<button class="hamburger-menu">☰</button></p>
+<nav class="mobile-nav">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
+<h4 id="22-navigasi-yang-responsif"><strong>2.2. Navigasi yang Responsif</strong></h4>
+<p>Saat membuat situs responsif, navigasi harus mampu menyesuaikan diri dengan ukuran layar perangkat yang digunakan. Pada layar kecil, menu horizontal bisa disembunyikan dan diganti dengan hamburger menu, sehingga pengunjung masih dapat mengakses tautan penting dengan mudah.</p>
+
+<p>Contoh menggunakan media queries untuk navigasi responsif:</p>
+
+<p>css
+Copy
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}</p>
+
+<p>@media (max-width: 768px) {
+  nav ul {
+    display: none; /* Menyembunyikan menu untuk layar kecil */
+  }</p>
+
+<p>.hamburger-menu {
+    display: block; /* Menampilkan tombol hamburger */
+  }
+}</p>
+
+<h3 id="3-layout-dan-navigation-dalam-workshop-web-jekyll"><strong>3. Layout dan Navigation dalam Workshop Web (Jekyll)</strong></h3>
+<p>Dalam workshop pengembangan web menggunakan Jekyll, peserta akan belajar bagaimana layout dan navigasi diterapkan dalam konteks situs web statis.</p>
+
+<h4 id="31-layout-di-jekyll"><strong>3.1. Layout di Jekyll</strong></h4>
+<p>Di Jekyll, layout biasanya disusun menggunakan file Liquid di dalam folder _layouts. Layout ini menentukan bagaimana elemen-elemen seperti header, footer, dan konten utama diatur.</p>
+
+<h4 id="32-navigasi-di-jekyll"><strong>3.2. Navigasi di Jekyll</strong></h4>
+<p>Untuk membuat navigasi di Jekyll, Anda bisa membuat file navigation.html di folder _includes yang berisi menu navigasi utama.</p>
+
+<p>Contoh file _includes/navigation.html:</p>
+
+<p>html
+Copy</p>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+<p>Kemudian, file ini dapat disertakan dalam layout dengan menggunakan sintaks Liquid seperti yang ditunjukkan sebelumnya.</p>
+
+
+</body>
+</html>
