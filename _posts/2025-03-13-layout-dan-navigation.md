@@ -7,6 +7,7 @@ penjelasan tentang Layout dan Navigation
 
 Berikut adalah beberapa aspek penting dari layout dan navigation:
 
+---
 
 ### **1. Layout dalam Web Design**
 Layout adalah cara elemen-elemen situs web diatur dan ditampilkan di halaman. Layout yang efektif akan mempermudah pengguna untuk membaca dan berinteraksi dengan konten, serta meningkatkan pengalaman pengguna secara keseluruhan.
@@ -115,6 +116,8 @@ Copy
 }
 Dengan media queries di CSS, layout ini bisa disesuaikan lebih lanjut agar elemen-elemen tampil dengan baik di perangkat yang lebih kecil.
 
+---
+
 ### **2. Navigation dalam Web Design**
 Navigation adalah elemen yang memungkinkan pengguna untuk berpindah dari satu halaman ke halaman lainnya dalam situs web. Navigasi yang jelas dan mudah digunakan sangat penting untuk memastikan bahwa pengunjung dapat dengan cepat menemukan informasi yang mereka cari.
 
@@ -193,6 +196,8 @@ nav ul {
     display: block; /* Menampilkan tombol hamburger */
   }
 }
+
+---
 
 ### **3. Layout dan Navigation dalam Workshop Web (Jekyll)**
 Dalam workshop pengembangan web menggunakan Jekyll, peserta akan belajar bagaimana layout dan navigasi diterapkan dalam konteks situs web statis.

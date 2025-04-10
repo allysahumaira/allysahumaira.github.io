@@ -7,6 +7,8 @@ penjelasan tentang Instalasi Ruby dan Jekyll
 
 Ruby dan Jekyll adalah dua teknologi yang sering digunakan bersama dalam pengembangan web, terutama untuk membuat situs web statis yang mudah dikelola. Ruby adalah bahasa pemrograman yang digunakan untuk menulis Jekyll, sedangkan Jekyll adalah generator situs statis yang sering digunakan untuk membuat blog atau situs web pribadi. Dalam workshop web, belajar untuk menginstal dan menggunakan Ruby serta Jekyll sangat penting karena mereka memberikan platform yang sederhana namun kuat untuk membangun situs.
 
+---
+
 ### **1. Instalasi Ruby**
 Ruby adalah bahasa pemrograman yang digunakan untuk menjalankan aplikasi seperti Jekyll. Sebelum Anda dapat menggunakan Jekyll, Anda harus memastikan Ruby terinstal di komputer Anda. Berikut adalah langkah-langkah terperinci untuk menginstal Ruby pada berbagai sistem operasi.
 
@@ -76,6 +78,8 @@ Copy
 ruby -v
 Anda harus melihat versi Ruby yang terinstal.
 
+---
+
 ### **2. Instalasi Jekyll**
 Jekyll adalah generator situs statis yang memungkinkan Anda membuat situs web dari file teks. Instalasi Jekyll membutuhkan Ruby yang sudah terinstal sebelumnya.
 
@@ -142,6 +146,8 @@ Copy
 jekyll -v
 Anda harus melihat versi Jekyll yang terinstal.
 
+---
+
 ### **3. Membuat Proyek Jekyll Baru**
 Setelah Ruby dan Jekyll terinstal, Anda dapat membuat proyek Jekyll baru dengan mengikuti langkah-langkah di bawah ini.
 
@@ -195,6 +201,8 @@ Berikut adalah penjelasan singkat tentang struktur direktori yang dihasilkan ole
 
 /_config.yml: File konfigurasi untuk situs Jekyll Anda (misalnya, pengaturan nama situs, URL, dan lainnya).
 
+---
+
 ### **4. Mengatasi Masalah Umum**
 
 #### **4.1. Masalah Versi Ruby yang Tidak Kompatibel**
@@ -206,6 +214,8 @@ Jika Jekyll atau Bundler memberikan kesalahan terkait dependensi, coba jalankan 
 bash
 Copy
 gem update --system
+
+---
 
 ### **5. Kesimpulan**
 Instalasi Ruby dan Jekyll adalah langkah pertama yang penting dalam membangun situs web statis atau blog menggunakan Jekyll. Dengan mengikuti panduan ini, Anda akan memiliki Ruby dan Jekyll yang terinstal dan dapat langsung mulai membuat situs web statis atau blog pribadi Anda. Selanjutnya, Anda dapat mengeksplorasi berbagai plugin dan tema Jekyll untuk memperkaya pengalaman pengembangan situs web Anda.
