@@ -1,0 +1,14 @@
+title: home
+baseurl: "" # kalau di root, biarkan kosong
+url: "https://allysahumaira.github.io/" # ganti sesuai username kamu
+
+sass: 
+  sass_dir: _sass
+  style: compressed
+
+theme: null
+
+plugins : 
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-seo-tag
