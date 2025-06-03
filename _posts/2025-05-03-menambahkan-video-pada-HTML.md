@@ -3,6 +3,8 @@ layout: post
 title: "Menambahkan Video pada HTML"
 ---
 
+penjelasan tentang menambahkan video pada HTML
+
 Menambahkan video ke halaman web adalah salah satu cara terbaik untuk meningkatkan interaktivitas dan daya tarik visual situs Anda. HTML menyediakan berbagai cara untuk menyisipkan video, baik dengan elemen bawaan maupun dengan layanan pihak ketiga seperti YouTube atau Vimeo.
 
 Berikut adalah panduan lengkap tentang cara menambahkan video pada HTML untuk kebutuhan pengembangan web Anda.
